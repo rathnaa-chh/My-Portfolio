@@ -1,0 +1,11 @@
+{
+  "title": "CHHOURN RATHNA Portfolio",
+  "description": "A modern portfolio website built with React and Vite.",
+  "language": "en",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": "/favicon.ico"
+  }
+}
