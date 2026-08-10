@@ -172,8 +172,7 @@ export function HeroSection() {
             <div style={{ display: 'flex', gap: 32, animation: 'fade-in-up 0.7s ease 0.5s both', marginTop: 8 }}>
               {[
                 { num: '4+', label: 'Projects Built' },
-                { num: '1+', label: 'Year Experience' },
-                { num: '8+', label: 'Skills Mastered' },
+                { num: '1Year+', label: 'Experience with School Projects' },
               ].map(s => (
                 <div key={s.label}>
                   <div style={{

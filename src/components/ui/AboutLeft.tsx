@@ -55,7 +55,7 @@ export function AboutLeft({ visible }: { visible: boolean }) {
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
         {[
           { label: 'Location', value: 'Phnom Penh, Cambodia' },
-          { label: 'Experience', value: '1+ Year with school projects' },
+          { label: 'Experience with school projects', value: '1+ ' },
           { label: 'Stack', value: 'Vue / React' },
           { label: 'Status', value: '🟢 Available' },
         ].map(f => (
