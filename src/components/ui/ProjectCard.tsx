@@ -27,7 +27,7 @@ export function ProjectCard({ project, index, visible }: { project: { title: str
         {/* Image */}
         <div style={{ position: 'relative', overflow: 'hidden', height: 220 }}>
           <img
-            src={`https://images.unsplash.com/${project.image}?w=700&h=400&fit=crop&auto=format`}
+            src={`${project.image}`}
             alt={project.title}
             style={{
               width: '100%', height: '100%', objectFit: 'cover', display: 'block',

@@ -28,7 +28,7 @@ export function AboutRight({ visible }: { visible: boolean }) {
           </div>
           <div>
             <div style={{ fontFamily: 'Plus Jakarta Sans, sans-serif', fontWeight: 700, fontSize: 15, color: '#fff' }}>Bachelor in Information Technology Engineering of Faculty Engineering</div>
-            <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.5)', marginTop: 4 }}>University of the Philippines • 2024–2027</div>
+            <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.5)', marginTop: 4 }}>Royal University of Phnom Penh • 2024–2027</div>
           </div>
         </div>
       </div>

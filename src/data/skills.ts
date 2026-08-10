@@ -10,7 +10,6 @@ export const FRONTEND_SKILLS = [
 ]
 
 export const TOOL_SKILLS = [
-  { name: 'Git', level: 88, color: '#F05032', abbr: 'GIT' },
   { name: 'GitHub', level: 91, color: '#fff', abbr: 'GH' },
   { name: 'Figma', level: 78, color: '#F24E1E', abbr: 'FIG' },
   { name: 'Canva', level: 82, color: '#00C4CC', abbr: 'CV' },

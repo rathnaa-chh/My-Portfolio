@@ -13,7 +13,7 @@ export function AboutLeft({ visible }: { visible: boolean }) {
           background: 'rgba(3,0,20,0.8)',
         }}>
           <img
-            src="/dist/assets/rr.png"
+            src="./src/assets/image.png"
             alt="Rathna Chhourn — Frontend Developer"
             style={{ width: '100%', height: 360, objectFit: 'cover', display: 'block', filter: 'brightness(0.9) saturate(1.1)' }}
           />
@@ -52,8 +52,8 @@ export function AboutLeft({ visible }: { visible: boolean }) {
       {/* Quick facts */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
         {[
-          { label: 'Location', value: 'Metro Manila, PH' },
-          { label: 'Experience', value: '1+ Year' },
+          { label: 'Location', value: 'Phnom Penh, Cambodia' },
+          { label: 'Experience', value: '1+ Year with school projects' },
           { label: 'Stack', value: 'Vue / React' },
           { label: 'Status', value: '🟢 Available' },
         ].map(f => (

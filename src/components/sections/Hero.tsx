@@ -240,7 +240,7 @@ export function HeroSection() {
 
               {/* Profile Image */}
               <img
-                src="dist/assets/rr-removebg-preview.png"
+                src="./src/assets/rr-removebg-preview.png"
                 alt="Profile"
                 style={{
                   position: "absolute",
