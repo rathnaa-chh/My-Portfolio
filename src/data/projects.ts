@@ -1,3 +1,6 @@
+import invenImage from '@/assets/inven.png'
+import clothingImage from '@/assets/clothing.png'
+
 export const PROJECTS = [
   // {
   //   title: 'School Management System',
@@ -11,7 +14,7 @@ export const PROJECTS = [
   {
     title: 'Inventory Management System',
     description: 'Real-time inventory tracking with barcode scanning, low-stock alerts, supplier management, and a rich analytics dashboard.',
-    image: './src/assets/inven.png',
+    image: invenImage,
     tech: ['React', 'TypeScript', 'Node.js', 'PHP'],
     badge: null as string | null,
     demo: '#',
@@ -20,7 +23,7 @@ export const PROJECTS = [
   {
     title: 'Clothing Store Website',
     description: 'Modern e-commerce storefront for a fashion brand featuring product catalog, cart, wishlist, and a streamlined checkout flow.',
-    image: './src/assets/clothing.png',
+    image: clothingImage,
     tech: ['React', 'TypeScript', 'Tailwind CSS'],
     badge: null as string | null,
     demo: '#',

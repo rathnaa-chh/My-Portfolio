@@ -1,3 +1,5 @@
+import aboutImage from '@/assets/image.png'
+
 export function AboutLeft({ visible }: { visible: boolean }) {
   return (
     <div className={`reveal-left ${visible ? 'visible' : ''}`} style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
@@ -13,7 +15,7 @@ export function AboutLeft({ visible }: { visible: boolean }) {
           background: 'rgba(3,0,20,0.8)',
         }}>
           <img
-            src="./src/assets/image.png"
+            src={aboutImage}
             alt="Rathna Chhourn — Frontend Developer"
             style={{ width: '100%', height: 360, objectFit: 'cover', display: 'block', filter: 'brightness(0.9) saturate(1.1)' }}
           />

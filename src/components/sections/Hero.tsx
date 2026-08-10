@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { TYPING_TEXTS } from '@/data/nav'
 import { useTypingEffect } from '@/hooks/useTypingEffect'
+import profileImage from '@/assets/rr-removebg-preview.png'
 
 export function HeroSection() {
   const typed = useTypingEffect(TYPING_TEXTS)
@@ -240,7 +241,7 @@ export function HeroSection() {
 
               {/* Profile Image */}
               <img
-                src="./src/assets/rr-removebg-preview.png"
+                src={profileImage}
                 alt="Profile"
                 style={{
                   position: "absolute",
