@@ -1,5 +1,5 @@
 import { SkillCard } from '@/components/ui/SkillCard'
-import { FRONTEND_SKILLS, TOOL_SKILLS } from '@/data/skills'
+import { BACKEND_SKILLS, FRONTEND_SKILLS, TOOL_SKILLS } from '@/data/skills'
 import { useScrollReveal } from '@/hooks/useScrollProgress'
 
 export function SkillsSection() {
@@ -42,7 +42,21 @@ export function SkillsSection() {
             {FRONTEND_SKILLS.map((s, i) => <SkillCard key={s.name} skill={s} visible={visible} delay={i * 60} />)}
           </div>
         </div>
-
+        {/* Backend */}
+        <div style={{ marginBottom: 48 }}>
+          <h3 style={{
+            fontFamily: 'JetBrains Mono, monospace', fontSize: 13, letterSpacing: '0.12em',
+            color: '#5B6CFF', textTransform: 'uppercase', margin: '0 0 24px',
+            display: 'flex', alignItems: 'center', gap: 12,
+          }}>
+            <span style={{ width: 24, height: 1, background: '#5B6CFF', display: 'inline-block' }} />
+            Backend Development
+            <span style={{ flex: 1, height: 1, background: 'rgba(91,108,255,0.2)', display: 'inline-block' }} />
+          </h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: 16 }}>
+            {BACKEND_SKILLS.map((s, i) => <SkillCard key={s.name} skill={s} visible={visible} delay={i * 60} />)}
+          </div>
+        </div>
         {/* Tools */}
         <div>
           <h3 style={{

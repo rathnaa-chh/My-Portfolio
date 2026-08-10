@@ -9,9 +9,8 @@ export const NAV_ITEMS = [
 ]
 
 export const TYPING_TEXTS = [
-  'Frontend Developer',
-  'Vue.js Developer',
-  'React Developer',
+  'Web Developer',
   'UI/UX Implementer',
-  'Frontend Intern',
+  'Frontend Developer',
+  'Responsive Web Designer',
 ]
